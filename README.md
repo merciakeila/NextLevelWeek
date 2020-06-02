@@ -1,6 +1,3 @@
-<p align="center">
-   <a target="_blank" rel="Ecoleta" href="https://github.com/Rocketseat"><img src="doc/Logo.png" width="300" style="max-width:100%;margin-top:20px;"></a><br>
-</p>
 <h1>Next Level Week</h1> 
 <blockquote>O NLW é uma semana prática com muito código, desafios e networking desenvolvido pela RocketSeat.</blockquote>
 
