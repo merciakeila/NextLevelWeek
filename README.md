@@ -1,5 +1,5 @@
 <p align="center">
-   <a target="_blank" rel="Ecoleta" href="https://github.com/Rocketseat"><img src="doc/logo.svg" width="50%" style="max-width:100%;margin-top:30px;"></a><br>
+   <a target="_blank" rel="Ecoleta" href="https://github.com/Rocketseat"><img src="doc/logo.svg" width="30%" style="max-width:100%;margin-top:30px;"></a><br>
 </p>
 
 <h1 align="center">Next Level Week</h1> 
