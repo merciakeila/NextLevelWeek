@@ -1,0 +1,30 @@
+/*### Body ###*/
+
+body {
+    background-color: $white-middle;
+    -webkit-font-smoothing: antialiased;
+}
+
+/*### Headers ###*/
+
+h1 {
+   @include headers (54);    
+}
+
+/*### Paragraph ###*/
+
+p {
+    @include p (24); 
+}
+
+
+/*### Grids ###*/
+
+.container {
+    @include container; 
+}
+
+
+
+
+

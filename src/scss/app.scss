@@ -1,0 +1,26 @@
+// Import all scss/sass directory files
+
+//SETTINGS
+@import "0-settings/variables";
+
+//TOOLS
+@import "1-tools/typography";
+@import "1-tools/mixins";
+
+//BASE
+@import "2-base/reset";
+@import "2-base/box-sizing";
+@import "2-base/headings";
+
+//OBJECTS
+@import "3-objects/buttons";
+
+//VENDOR
+@import "4-vendor/font-awesome/fontawesome.scss";
+@import "4-vendor/font-awesome/brands.scss";
+@import "4-vendor/font-awesome/regular.scss";
+@import "4-vendor/font-awesome/solid.scss";
+
+//LAYOUT
+@import "5-layout/header";
+@import "5-layout/hero";

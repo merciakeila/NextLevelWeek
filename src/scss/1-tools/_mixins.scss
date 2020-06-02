@@ -1,0 +1,84 @@
+/*### Typography ###*/
+@mixin ubuntu {
+font-family: 'Ubuntu', sans-serif;
+}
+
+@mixin roboto {
+font-family: 'Roboto', sans-serif;
+}
+
+/*### Headers ###*/
+
+// H1
+@mixin headers ($size) {
+@if $size == 54 {
+@include ubuntu;
+@include space-content;
+color: $purple;
+font-size: 54px;
+font-weight: bold;
+line-height: 64px;
+margin-bottom: 20px;
+}
+}
+
+/*### Paragraph ###*/
+
+@mixin p ($size) {
+@if $size == 24 {
+@include roboto;
+color: $purple-clean;
+font-size: 24px;
+line-height: 38px; 
+margin: 30px 0;
+}
+}
+
+/*### Links ###*/
+@mixin link-header  {
+color: $purple;
+@include roboto;
+font-size: 16px;
+font-weight: bold;
+line-height: 19px;
+} 
+
+@mixin btn-link {
+color: $white;
+@include roboto;
+font-size: 16px;
+font-weight: bold;
+line-height: 19px;
+}
+
+/*### Grids ###*/
+
+@mixin container-fluid {
+flex-wrap: wrap;
+margin: 0 auto;
+width: 1440px;
+}
+
+@mixin container {
+flex-wrap: wrap;
+margin-left: auto;
+display: flex;
+padding: 0 30px;
+align-items: center;
+margin-right: auto;
+max-width: 1100px;
+}
+
+@mixin space-content {
+    margin-top: 10px 0;
+}
+
+
+
+
+
+
+
+
+
+

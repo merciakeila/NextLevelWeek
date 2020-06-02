@@ -1,0 +1,18 @@
+header {
+    padding: 30px 0;
+    .logo {
+    flex: 1;
+}
+.nav-header
+    a {
+        display: flex;
+        align-items: center;
+        @include link-header;
+    }
+    span {
+        background-image: url('../assets/log-in.svg');
+        width: 20px;
+        height: 20px;
+        margin-right: 20px;
+    }
+}
