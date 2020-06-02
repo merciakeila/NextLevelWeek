@@ -9,3 +9,9 @@
     position: relative;
 }
 }
+
+@media screen and (min-width: 320px) and (max-width: 800px) {
+  .hero {
+      background-image: none;
+  }
+}
