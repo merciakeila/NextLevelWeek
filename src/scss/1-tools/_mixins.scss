@@ -20,6 +20,11 @@ font-weight: bold;
 line-height: 64px;
 margin-bottom: 20px;
 }
+
+// H1 - Mobile
+@else if $size == 50 {
+font-size: 50px;
+}
 }
 
 /*### Paragraph ###*/
@@ -31,6 +36,11 @@ color: $purple-clean;
 font-size: 24px;
 line-height: 38px; 
 margin: 30px 0;
+}
+
+// p - mobile
+@else if $size == 23 {
+font-size: 23px;
 }
 }
 
@@ -72,6 +82,7 @@ max-width: 1100px;
 @mixin space-content {
     margin-top: 10px 0;
 }
+
 
 
 

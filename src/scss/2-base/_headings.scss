@@ -25,6 +25,11 @@ p {
 }
 
 
+@media screen and (min-width: 320px) and (max-width: 800px) { 
 
+    .container {
+        justify-content: center;
+    }
 
+}
 

@@ -14,4 +14,15 @@
   .hero {
       background-image: none;
   }
+  .content {
+    width: 100% !important;
+    text-align: center;
+    h1 {
+      @include headers (50);
+      top:50%;
+    }
+    p {
+      @include p (23);
+    }
+  }
 }
